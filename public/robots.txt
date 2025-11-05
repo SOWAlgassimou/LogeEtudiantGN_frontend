@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Pages importantes
+Allow: /chambres
+Allow: /login
+Allow: /register
+
+# Bloquer les pages privées
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://logeetudiantgn.com/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1
